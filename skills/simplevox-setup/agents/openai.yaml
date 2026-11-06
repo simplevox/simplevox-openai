@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox setup"
+  short_description: "Setup, hours and call routing"
+  default_prompt: "Use $simplevox-setup to check my SimpleVox setup and whether we're open right now."

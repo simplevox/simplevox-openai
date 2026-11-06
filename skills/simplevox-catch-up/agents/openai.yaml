@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox catch-up"
+  short_description: "Who called and who needs a reply"
+  default_prompt: "Use $simplevox-catch-up to tell me what I missed on SimpleVox today."

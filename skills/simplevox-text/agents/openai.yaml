@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox texting"
+  short_description: "Draft and send texts with approval"
+  default_prompt: "Use $simplevox-text to draft a text from my SimpleVox number for my approval."

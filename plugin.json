@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "simplevox",
+  "version": "1.0.0",
+  "description": "Run your SimpleVox business line from your AI assistant: catch up on calls and voicemail, find and quote what customers said, text and call with your approval, and keep contacts and conversations up to date.",
+  "author": {
+    "name": "SimpleVox",
+    "email": "support@simplevox.net",
+    "url": "https://simplevox.net"
+  },
+  "homepage": "https://simplevox.net/docs/ai-tools/chatgpt",
+  "repository": "https://github.com/simplevox/simplevox-openai",
+  "license": "Apache-2.0",
+  "keywords": [
+    "simplevox",
+    "business phone",
+    "calls",
+    "texting",
+    "voicemail",
+    "small business"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SimpleVox",
+        "shortDescription": "Calls, texts and voicemail",
+        "longDescription": "Connect your SimpleVox business phone to your AI assistant. Ask who called and what they wanted, find who still needs a reply, search and quote what customers said in calls, voicemail and texts, and get activity reports. With your approval, it can text customers, set up calls that ring you and the customer, create and update contacts, and mark conversations done for your team. Every answer links back to the original call, transcript passage or text. You sign in with your own SimpleVox account and choose which numbers and actions each connection may use.",
+        "developerName": "SimpleVox",
+        "category": "Productivity",
+        "capabilities": [
+          "Review calls, texts and voicemail",
+          "Text and call customers with your approval",
+          "Keep contacts and the inbox current"
+        ],
+        "websiteURL": "https://simplevox.net",
+        "supportURL": "https://simplevox.net/help",
+        "privacyPolicyURL": "https://simplevox.net/privacy-policy",
+        "termsOfServiceURL": "https://simplevox.net/terms-and-conditions",
+        "defaultPrompt": [
+          "Which missed calls still need a reply?",
+          "What did Mary say about Thursday's appointment?",
+          "Text Jordan that I'm running 15 minutes late."
+        ],
+        "brandColor": "#36309A",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

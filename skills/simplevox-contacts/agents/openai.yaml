@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox contacts"
+  short_description: "Find, save and fix contacts"
+  default_prompt: "Use $simplevox-contacts to find or update a contact in SimpleVox."

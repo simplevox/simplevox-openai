@@ -1,0 +1,23 @@
+{
+  "name": "simplevox",
+  "description": "Run your SimpleVox business line from your AI assistant: catch up on calls and voicemail, find and quote what customers said, text and call with your approval, and keep contacts and conversations up to date.",
+  "owner": {
+    "name": "SimpleVox",
+    "email": "support@simplevox.net"
+  },
+  "plugins": [
+    {
+      "name": "simplevox",
+      "source": "./",
+      "description": "Run your SimpleVox business line from your AI assistant: catch up on calls and voicemail, find and quote what customers said, text and call with your approval, and keep contacts and conversations up to date.",
+      "category": "Productivity",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ],
+  "interface": {
+    "displayName": "SimpleVox"
+  }
+}

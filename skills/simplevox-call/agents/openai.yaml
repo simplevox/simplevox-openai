@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox calling"
+  short_description: "Set up calls that ring you first"
+  default_prompt: "Use $simplevox-call to set up a call from my SimpleVox number that rings me first."

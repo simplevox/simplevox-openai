@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox"
+  short_description: "Rules and routing for SimpleVox tasks"
+  default_prompt: "Use $simplevox to help me with my SimpleVox calls, texts and contacts."

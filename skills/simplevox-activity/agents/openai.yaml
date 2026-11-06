@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox activity"
+  short_description: "Call and text activity reports"
+  default_prompt: "Use $simplevox-activity to report last week's SimpleVox calls compared with the week before."

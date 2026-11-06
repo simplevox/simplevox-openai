@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox follow-ups"
+  short_description: "Reply to missed calls and voicemail"
+  default_prompt: "Use $simplevox-follow-ups to draft replies to this week's missed calls and voicemails."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SimpleVox find and quote"
+  short_description: "Find and quote what customers said"
+  default_prompt: "Use $simplevox-find-and-quote to find what a customer said in SimpleVox, with sources."
